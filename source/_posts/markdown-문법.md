@@ -48,6 +48,8 @@ C-c C-l, C-c C-i 키 사용
 
 1. inline
 
+backquote (`) 하나로 감싼다.
+
 ``` markdown
 이것은 인라인 코드 `code` 예입니다.
 ```
@@ -56,14 +58,16 @@ C-c C-l, C-c C-i 키 사용
 
 2. block
 
-<pre>
+블록의 경우는 backquote (`) 세개를 사용하여 감싸야 한다.
+아래는 backquote 를 사용하여 표시할 수가 없어서 홑 따옴표로
+표시하였지만 실제 사용시는 backquote 를 사용하여야 한다.
 
-```
+``` python
+'''
 s = "Python syntax highlighting"
 print s
+'''
 ```
-
-</pre>
 
 ``` python
 s = "Python syntax highlighting"
