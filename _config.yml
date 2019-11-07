@@ -92,10 +92,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 
-comment:
-    type: disqus
-    shortname: disqus ybgwon
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
